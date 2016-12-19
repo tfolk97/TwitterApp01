@@ -1,0 +1,118 @@
+	body{
+		background-color: #2CCFDF;
+		padding: 0px;
+		margin: 0px;
+		font-family: "Oswald",helvetica;
+	}
+	nav {
+		width: 100%;
+		background-color: white;
+		height: 65px;
+	}
+	nav li a{
+		display: block;
+		color: #444;
+		text-decoration: none;
+		text-transform: uppercase;
+		width: 100px;
+		height: 65px;
+		text-align: center;
+		line-height: 65px;
+	}
+	nav li a:hover{
+		background-color: white;
+		color: #2CCFDF;
+	}
+	nav li{
+		display: inline-block;
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		font-family: "Oswald", helvetica;
+
+	}
+	nav ul{
+		float: right;
+		margin:0px;
+		padding: 0px;
+	}
+	h5{
+	font-size: 12px;
+	margin-top: -55px;
+	margin-left: 280px;
+	}
+
+#title {
+	margin-left: 20px;
+	line-height: 65px;
+	font-size: 40px;
+	float: left;
+	color: #444;
+	font-family: "Oswald", helvetica;
+}
+#title span {
+	color: #2CCFDF;
+}
+
+	
+	#tweetBox{
+		width: 200px;
+		height: 1000px;
+		background-color: black;
+		color: #2CCFDF;
+		font-family: "Oswald", helvetica;
+		margin-top: 50px;
+		float: right;
+
+	}
+	#profPic{
+		width: 50px;
+		height: 50px;
+		background-color: #2CCFDF;
+		color: white;
+	}
+	#username{
+		color: white;
+		font-size: 15px;
+		/*float: right;*/
+		margin-top: -50px;
+		margin-left: 10px;
+		padding-top: 10px;
+
+	}
+	#tweet{
+		color: #2CCFDF;
+		font-family: "Oswald", helvetica;
+		margin-left: 10px;
+		margin-top: 40px;
+	}
+	#search{
+		color: #2CCFDF;
+		width: 150px;
+		height: 100px;
+	}
+	#searchCont{
+		height: 1000px;
+		width: 1200px;
+		background-color: #2CCFDF;
+		float: right;
+
+	}
+		
+	}
+	#button{
+		background-color: white;
+		color: #2CCFDF;
+		text-decoration: none;
+		text-shadow: none;
+		font-family: "Oswald", helvetica;
+		width: 80px;
+		height: 30px;
+		font-size: 15px;
+
+	}
+
+	#viewContainer{
+		height: 100%;
+		width: 100%;
+	}

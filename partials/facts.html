@@ -1,0 +1,10 @@
+<h1 style="color: white;">Search for Facts!</h1>
+
+<div ng-repeat="tweet in feed.tweets">
+	<h3 >{{ tweet.author.fullName }}
+	<em>{{ tweet.author.nickName }}</em>
+	{{ tweet.updated}} <br>
+	{{ tweet.text }}</h3>
+	<img src="{{ tweet.author.avatar }}">
+	<a href="{{ tweet.author.url}}"> {{tweet.author.url}}</a>
+</div>

@@ -1,0 +1,8 @@
+<h1>Welcome to my Twitter App</h1>
+
+<h3>Search for Jokes or Facts!</h3>
+
+<div id="tweetBox" ng-repeat="tweet in feeds.tweets">
+	<h3 id="tweet">{{ tweet.text }}</h3>
+	<em id="username">{{ tweet.author.fullName }}</em>
+</div>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="styles/mystyles.css">
+	<script src="scripts/angular.min.js"></script>
+	<script src="scripts/angular-route.js"></script>
+	<script src="scripts/correctNgTweet.js"></script>
+</head>
+
+<body ng-app="twitterApp">
+
+	<nav>
+
+	<div id="title">Twitter <span>Search</span></div>
+		<ul>
+			<li><a href="#main">Home</a></li>
+			<li><a href="#artSearch">Art</a></li>
+			<li><a href="#factsSearch">Facts</a></li>
+		</ul>
+	</nav>
+
+	<div id="viewContainer">
+		<div ng-view></div>
+	</div>
+
+	
+
+	<!-- <div>
+	<div id="tweetBox">
+			<div id="username">
+			UserName Here
+			</div>
+			<div id="tweet">
+			Insert Tweet Here
+			</div>
+	</div>
+	</div> -->
+
+
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/myscripts.js"></script>
+</body>
+</html>
