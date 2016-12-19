@@ -31,19 +31,19 @@ app.controller("artCtrl", function ($scope, $http, tweets){
 app.controller("factsCtrl", function ($scope, $http, tweets){
    
         tweets.get({
-        widgetId: '810842444686389250'
+        widgetId: '810842941858136066'
     }).success(function(data){
         $scope.feed = data;
         console.log(data);
     });
 });
 
-app.controller("homeCtrl", function ($scope, $http, tweets){
+// app.controller("homeCtrl", function ($scope, $http, tweets){
    
-        tweets.get({
-        widgetId: '810691191901667330'
-    }).success(function(data){
-        $scope.feed = data;
-        console.log(data);
-    });
-});
+//         tweets.get({
+//         widgetId: '810691191901667330'
+//     }).success(function(data){
+//         $scope.feed = data;
+//         console.log(data);
+//     });
+// });

@@ -113,6 +113,25 @@
 	}
 
 	#viewContainer{
-		height: 100%;
+		width: 400px;
+		background-color: #345356;
+		color: white;
+		margin-left: 500px;
+		padding: 10px;
+	}
+
+	.tweet2 a {
+		color: white;
+		text-decoration: none;
+		font-size: 12px;
+	}
+	#icon{
+		height: 30px;
+		width: 30px;
+	}
+	#back{
+		background-image: url(image.png);
+		height: 5000px;
 		width: 100%;
+
 	}
